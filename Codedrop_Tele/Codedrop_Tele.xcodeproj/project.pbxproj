@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3B05F12C1C74E000A0D3C5 /* Codedrop_TeleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B05F02C1C74E000A0D3C5 /* Codedrop_TeleApp.swift */; };
+		1F3B05F32C1C74E000A0D3C5 /* TabbarControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B05F22C1C74E000A0D3C5 /* TabbarControlView.swift */; };
+		1F3B05F52C1C74E100A0D3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3B05F42C1C74E100A0D3C5 /* Assets.xcassets */; };
+		1F3B05F82C1C74E100A0D3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3B05F72C1C74E100A0D3C5 /* Preview Assets.xcassets */; };
+		1F3B05FF2C1C752400A0D3C5 /* GoodTaskView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B05FE2C1C752400A0D3C5 /* GoodTaskView .swift */; };
+		1F3B06012C1C752D00A0D3C5 /* BadTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B06002C1C752D00A0D3C5 /* BadTaskView.swift */; };
+		1F3B06032C1C753B00A0D3C5 /* TaskGoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B06022C1C753B00A0D3C5 /* TaskGoodData.swift */; };
+		1F3B06082C1C8D9C00A0D3C5 /* ProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B06072C1C8D9C00A0D3C5 /* ProgressData.swift */; };
+		1F3B060A2C1CA3C900A0D3C5 /* TaskBadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B06092C1CA3C900A0D3C5 /* TaskBadData.swift */; };
+		1F3B060C2C1CD94B00A0D3C5 /* Lockicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F3B060B2C1CD94B00A0D3C5 /* Lockicons.png */; };
+		BD279C892C1CA5C0009BAEC8 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = BD279C882C1CA5C0009BAEC8 /* GoogleGenerativeAI */; };
+		BD279C8C2C1CA6D9009BAEC8 /* AIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD279C8B2C1CA6D9009BAEC8 /* AIModel.swift */; };
+		BD279C8E2C1CAA39009BAEC8 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD279C8D2C1CAA39009BAEC8 /* GenerativeAI-Info.plist */; };
+		BD279C902C1CAC5A009BAEC8 /* AITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD279C8F2C1CAC5A009BAEC8 /* AITestView.swift */; };
+		BD279C922C1CC38A009BAEC8 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD279C912C1CC38A009BAEC8 /* DataExtension.swift */; };
+		BD279C942C1CCB74009BAEC8 /* DetailBadTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD279C932C1CCB74009BAEC8 /* DetailBadTaskView.swift */; };
+		BD279C962C1CDFF9009BAEC8 /* BadTaskWriteModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD279C952C1CDFF9009BAEC8 /* BadTaskWriteModalView.swift */; };
+		BD279C982C1D1D2C009BAEC8 /* Lucky.png in Resources */ = {isa = PBXBuildFile; fileRef = BD279C972C1D1D2C009BAEC8 /* Lucky.png */; };
+		BD279C9B2C1D1D65009BAEC8 /* Worky.png in Resources */ = {isa = PBXBuildFile; fileRef = BD279C9A2C1D1D65009BAEC8 /* Worky.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F3B05ED2C1C74E000A0D3C5 /* Codedrop_Tele.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codedrop_Tele.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F3B05F02C1C74E000A0D3C5 /* Codedrop_TeleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codedrop_TeleApp.swift; sourceTree = "<group>"; };
+		1F3B05F22C1C74E000A0D3C5 /* TabbarControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarControlView.swift; sourceTree = "<group>"; };
+		1F3B05F42C1C74E100A0D3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F3B05F72C1C74E100A0D3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F3B05FE2C1C752400A0D3C5 /* GoodTaskView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoodTaskView .swift"; sourceTree = "<group>"; };
+		1F3B06002C1C752D00A0D3C5 /* BadTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadTaskView.swift; sourceTree = "<group>"; };
+		1F3B06022C1C753B00A0D3C5 /* TaskGoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGoodData.swift; sourceTree = "<group>"; };
+		1F3B06072C1C8D9C00A0D3C5 /* ProgressData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressData.swift; sourceTree = "<group>"; };
+		1F3B06092C1CA3C900A0D3C5 /* TaskBadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBadData.swift; sourceTree = "<group>"; };
+		1F3B060B2C1CD94B00A0D3C5 /* Lockicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lockicons.png; sourceTree = "<group>"; };
+		BD279C8B2C1CA6D9009BAEC8 /* AIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIModel.swift; sourceTree = "<group>"; };
+		BD279C8D2C1CAA39009BAEC8 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		BD279C8F2C1CAC5A009BAEC8 /* AITestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITestView.swift; sourceTree = "<group>"; };
+		BD279C912C1CC38A009BAEC8 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		BD279C932C1CCB74009BAEC8 /* DetailBadTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBadTaskView.swift; sourceTree = "<group>"; };
+		BD279C952C1CDFF9009BAEC8 /* BadTaskWriteModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadTaskWriteModalView.swift; sourceTree = "<group>"; };
+		BD279C972C1D1D2C009BAEC8 /* Lucky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lucky.png; sourceTree = "<group>"; };
+		BD279C9A2C1D1D65009BAEC8 /* Worky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Worky.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3B05EA2C1C74E000A0D3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD279C892C1CA5C0009BAEC8 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3B05E42C1C74E000A0D3C5 = {
+			isa = PBXGroup;
+			children = (
+				1F3B05EF2C1C74E000A0D3C5 /* Codedrop_Tele */,
+				1F3B05EE2C1C74E000A0D3C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F3B05EE2C1C74E000A0D3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F3B05ED2C1C74E000A0D3C5 /* Codedrop_Tele.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3B05EF2C1C74E000A0D3C5 /* Codedrop_Tele */ = {
+			isa = PBXGroup;
+			children = (
+				1F3B05F02C1C74E000A0D3C5 /* Codedrop_TeleApp.swift */,
+				1F3B06022C1C753B00A0D3C5 /* TaskGoodData.swift */,
+				1F3B06092C1CA3C900A0D3C5 /* TaskBadData.swift */,
+				1F3B06072C1C8D9C00A0D3C5 /* ProgressData.swift */,
+				1F3B05F22C1C74E000A0D3C5 /* TabbarControlView.swift */,
+				1F3B05FE2C1C752400A0D3C5 /* GoodTaskView .swift */,
+				1F3B06002C1C752D00A0D3C5 /* BadTaskView.swift */,
+				BD279C932C1CCB74009BAEC8 /* DetailBadTaskView.swift */,
+				BD279C8B2C1CA6D9009BAEC8 /* AIModel.swift */,
+				BD279C8F2C1CAC5A009BAEC8 /* AITestView.swift */,
+				BD279C912C1CC38A009BAEC8 /* DataExtension.swift */,
+				BD279C952C1CDFF9009BAEC8 /* BadTaskWriteModalView.swift */,
+				BD279C8D2C1CAA39009BAEC8 /* GenerativeAI-Info.plist */,
+				1F3B060B2C1CD94B00A0D3C5 /* Lockicons.png */,
+				1F3B05F42C1C74E100A0D3C5 /* Assets.xcassets */,
+				BD279C9A2C1D1D65009BAEC8 /* Worky.png */,
+				BD279C972C1D1D2C009BAEC8 /* Lucky.png */,
+				1F3B05F62C1C74E100A0D3C5 /* Preview Content */,
+			);
+			path = Codedrop_Tele;
+			sourceTree = "<group>";
+		};
+		1F3B05F62C1C74E100A0D3C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F3B05F72C1C74E100A0D3C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F3B05EC2C1C74E000A0D3C5 /* Codedrop_Tele */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F3B05FB2C1C74E100A0D3C5 /* Build configuration list for PBXNativeTarget "Codedrop_Tele" */;
+			buildPhases = (
+				1F3B05E92C1C74E000A0D3C5 /* Sources */,
+				1F3B05EA2C1C74E000A0D3C5 /* Frameworks */,
+				1F3B05EB2C1C74E000A0D3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codedrop_Tele;
+			packageProductDependencies = (
+				BD279C882C1CA5C0009BAEC8 /* GoogleGenerativeAI */,
+			);
+			productName = Codedrop_Tele;
+			productReference = 1F3B05ED2C1C74E000A0D3C5 /* Codedrop_Tele.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F3B05E52C1C74E000A0D3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1F3B05EC2C1C74E000A0D3C5 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F3B05E82C1C74E000A0D3C5 /* Build configuration list for PBXProject "Codedrop_Tele" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F3B05E42C1C74E000A0D3C5;
+			packageReferences = (
+				1F3B06042C1C754C00A0D3C5 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				BD279C872C1CA5C0009BAEC8 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 1F3B05EE2C1C74E000A0D3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F3B05EC2C1C74E000A0D3C5 /* Codedrop_Tele */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F3B05EB2C1C74E000A0D3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3B05F82C1C74E100A0D3C5 /* Preview Assets.xcassets in Resources */,
+				1F3B05F52C1C74E100A0D3C5 /* Assets.xcassets in Resources */,
+				BD279C9B2C1D1D65009BAEC8 /* Worky.png in Resources */,
+				BD279C982C1D1D2C009BAEC8 /* Lucky.png in Resources */,
+				1F3B060C2C1CD94B00A0D3C5 /* Lockicons.png in Resources */,
+				BD279C8E2C1CAA39009BAEC8 /* GenerativeAI-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F3B05E92C1C74E000A0D3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3B05F32C1C74E000A0D3C5 /* TabbarControlView.swift in Sources */,
+				BD279C902C1CAC5A009BAEC8 /* AITestView.swift in Sources */,
+				1F3B060A2C1CA3C900A0D3C5 /* TaskBadData.swift in Sources */,
+				1F3B06012C1C752D00A0D3C5 /* BadTaskView.swift in Sources */,
+				BD279C8C2C1CA6D9009BAEC8 /* AIModel.swift in Sources */,
+				1F3B05FF2C1C752400A0D3C5 /* GoodTaskView .swift in Sources */,
+				BD279C942C1CCB74009BAEC8 /* DetailBadTaskView.swift in Sources */,
+				1F3B05F12C1C74E000A0D3C5 /* Codedrop_TeleApp.swift in Sources */,
+				1F3B06082C1C8D9C00A0D3C5 /* ProgressData.swift in Sources */,
+				1F3B06032C1C753B00A0D3C5 /* TaskGoodData.swift in Sources */,
+				BD279C922C1CC38A009BAEC8 /* DataExtension.swift in Sources */,
+				BD279C962C1CDFF9009BAEC8 /* BadTaskWriteModalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F3B05F92C1C74E100A0D3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F3B05FA2C1C74E100A0D3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F3B05FC2C1C74E100A0D3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Codedrop_Tele/Preview Content\"";
+				DEVELOPMENT_TEAM = WTK65UP9RZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sangdolee.Codedrop-Tele";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F3B05FD2C1C74E100A0D3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Codedrop_Tele/Preview Content\"";
+				DEVELOPMENT_TEAM = WTK65UP9RZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sangdolee.Codedrop-Tele";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F3B05E82C1C74E000A0D3C5 /* Build configuration list for PBXProject "Codedrop_Tele" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3B05F92C1C74E100A0D3C5 /* Debug */,
+				1F3B05FA2C1C74E100A0D3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F3B05FB2C1C74E100A0D3C5 /* Build configuration list for PBXNativeTarget "Codedrop_Tele" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F3B05FC2C1C74E100A0D3C5 /* Debug */,
+				1F3B05FD2C1C74E100A0D3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F3B06042C1C754C00A0D3C5 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+		BD279C872C1CA5C0009BAEC8 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD279C882C1CA5C0009BAEC8 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD279C872C1CA5C0009BAEC8 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1F3B05E52C1C74E000A0D3C5 /* Project object */;
+}
